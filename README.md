@@ -1,27 +1,35 @@
-# Lira Construction — Website
+# Lira Construction LLC — Website
 
-A free, static one-page website for Lira Construction (general contracting & residential remodeling). No build tools, no dependencies — plain HTML/CSS/JS.
+A free, static one-page website for Lira Construction LLC, a family-owned custom patio cover builder serving The Woodlands, Conroe, Willis, Montgomery, Tomball, Spring, and Humble, TX. No build tools, no dependencies — plain HTML/CSS/JS.
 
 ## Structure
 
 ```
-index.html        Page content
-css/style.css      Styles
-js/script.js       Mobile nav, footer year, contact form handler
-assets/favicon.svg Logo mark / favicon
+index.html          Page content
+css/style.css        Styles
+js/script.js         Mobile nav, footer year, contact form handler
+assets/favicon.svg   Logo mark / favicon
+assets/gallery/       Optimized photos + video actually used on the site
+images/                Raw, full-size originals (not referenced by the site — source archive only)
 ```
 
-## Before launch — replace placeholders
+Photos in `assets/gallery/` were cropped/resized/compressed from the originals in `images/` for fast page loads. The video (`patio-video.mp4`) was remuxed from the original `.mov` into an MP4 container for cross-browser playback — same quality, no re-encode.
 
-Search the project for these and fill in real values:
+## Still placeholder — fill in before launch
 
-- Phone number: `(555) 555-5555`
-- Email: `info@liraconstruction.com`
-- Service area / city: `[City, State]`
-- Contractor license number: `[XXXXXX]`
+- Business hours (contact section) — currently `[Add your business hours]`
+- Contractor license number (footer) — currently `[XXXXXX]`
 - Social links in the footer (`#` placeholders)
-- Project photos in the "Recent Projects" section (currently placeholder tiles)
+- 2 more project photos in the "More Of Our Work" grid still show placeholder tiles — swap in real photos as you get them
 - Testimonials — none included; add real client quotes if you have them
+
+## Already filled in
+
+- Phone: `(832) 897-9600`
+- Email: `LiraconstructionLLC10@gmail.com`
+- Service area: The Woodlands, Conroe, Willis, Montgomery, Tomball, Spring, Humble, TX
+- About section (English + Spanish)
+- Hero background photo, before/after comparison, 2 project photos, and a project walkthrough video
 
 ## Contact form
 
