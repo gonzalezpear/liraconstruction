@@ -20,7 +20,6 @@ Photos in `assets/gallery/` were cropped/resized/compressed from the originals i
 - Business hours (contact section) — currently `[Add your business hours]`
 - Contractor license number (footer) — currently `[XXXXXX]`
 - Social links in the footer (`#` placeholders)
-- 2 more project photos in the "More Of Our Work" grid still show placeholder tiles — swap in real photos as you get them
 - Testimonials — none included; add real client quotes if you have them
 
 ## Already filled in
@@ -29,7 +28,9 @@ Photos in `assets/gallery/` were cropped/resized/compressed from the originals i
 - Email: `LiraconstructionLLC10@gmail.com`
 - Service area: The Woodlands, Conroe, Willis, Montgomery, Tomball, Spring, Humble, TX
 - About section (English + Spanish)
-- Hero background photo, before/after comparison, 2 project photos, and a project walkthrough video
+- Hero background photo, 2 before/after comparisons, 5 more project photos (including a poolside project and an in-progress framing shot), and a project walkthrough video
+
+Send more photos any time — drop them in `images/` and they can be optimized and added to the "More Of Our Work" grid.
 
 ## Contact form
 
