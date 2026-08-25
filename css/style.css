@@ -423,15 +423,6 @@ button, input, select, textarea { font-family: inherit; font-size: 1rem; }
   border-color: var(--accent);
 }
 .contact-form button { margin-top: 22px; justify-self: start; }
-.form-note {
-  background: rgba(255,106,0,0.1);
-  border: 1px dashed var(--accent);
-  color: var(--off-white);
-  font-size: 0.82rem;
-  padding: 10px 12px;
-  border-radius: 3px;
-  margin-bottom: 4px;
-}
 .form-status { font-size: 0.9rem; color: var(--accent); min-height: 1.2em; }
 
 /* ---------- Footer ---------- */

@@ -34,10 +34,7 @@ Send more photos any time — drop them in `images/` and they can be optimized a
 
 ## Contact form
 
-The form on the page is front-end only — submitting it currently just shows a message and does not send an email. To make it actually work on a static site, connect it to a free form backend, e.g.:
-
-- [Formspree](https://formspree.io) — set the form's `action` to your Formspree endpoint and change the method/JS as needed
-- [Netlify Forms](https://docs.netlify.com/forms/setup/) — if hosting on Netlify, add `data-netlify="true"` to the `<form>` tag
+Wired up to [Formspree](https://formspree.io) (endpoint `https://formspree.io/f/meajbkok`, tied to the `LiraconstructionLLC10@gmail.com` account). Submissions go straight to that inbox as a normal email — no dashboard to check. The free Formspree plan covers 50 submissions/month; if that's ever exceeded, upgrade or swap in a different endpoint in `index.html`'s `<form action="...">`.
 
 ## Run locally
 
@@ -47,12 +44,8 @@ Just open `index.html` in a browser, or serve it locally:
 npx serve .
 ```
 
-## Deploy to GitHub Pages (free)
+## Deploy
 
-1. Push this repo to GitHub.
-2. In the repo, go to **Settings → Pages**.
-3. Under "Build and deployment", set **Source** to `Deploy from a branch`.
-4. Choose branch `main` and folder `/ (root)`, then save.
-5. Your site will be live at `https://<your-username>.github.io/<repo-name>/` within a minute or two.
+Live at **liraconstructionllc.com**, hosted free on GitHub Pages (`Settings → Pages`, deploying from the `main` branch). The `CNAME` file in the repo root tells GitHub Pages to serve the custom domain instead of the default `gonzalezpear.github.io` URL. DNS is managed at Namecheap: 4 A records on `@` pointing to GitHub's IPs, plus a CNAME on `www` → `gonzalezpear.github.io`.
 
 The `.nojekyll` file in the repo root tells GitHub Pages not to run Jekyll processing, which isn't needed for a plain static site.
